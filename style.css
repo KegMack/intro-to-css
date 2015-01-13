@@ -1,7 +1,14 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* Reset code, taken from:
+
+   http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
+
+
+   fonts used: yellowtail, Abel, Droid serif
 */
+
+
 
 html, body, div, span, object, h1, p, blockquote, pre, a, em, img, strong, dl, dt, dd, ol, ul, li,  label, tr, th, td, article, footer, header, section {
   margin: 0;
@@ -26,6 +33,7 @@ ol, ul {
 /* end Reset code */
 
 
+
 html {
   background-color: white;
 }
@@ -35,22 +43,27 @@ body {
   margin-right: 200px;
 }
 
+header {
+  margin-bottom: 15px;
+}
+
 header img {
   float: left;
 }
 
 .headerTextSection h1 {
-  font-family:   cursive;
+  font-family: 'Yellowtail', cursive;
   font-size:     34px;
   line-height:   70%;
-  margin-bottom: 0em;
+  margin-bottom: 2px;
   margin-top:    5px;
 }
 
 .headerTextSection p {
+  font-family: 'Abel', sans-serif;
   margin-top:     0em;
   margin-bottom:  0em;
-  font-size:      12px;
+  font-size:      12;
 }
 
 .headerTextSection {
@@ -83,9 +96,6 @@ main h1 {
   margin-bottom: 0px;
 }
 
-.mainSubHeader {
-
-}
 .mainSubHeader p {
   float: left;
   color: gray;
@@ -106,9 +116,11 @@ main > img {
 
 .recipeInstructions p {
   text-indent: 2em;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Droid Serif', serif;
   font-size: 24;
   color: #707070;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .ingredientsList {
@@ -132,10 +144,13 @@ main > img {
 .secondIngredientsSection {
   float: right;
 }
+
 .ingredientsList li {
   font-family: Verdana Narrow;
   font-size: 20;
   color: #996600;
+  padding-top: 2px;
+  padding-bottom: 3px;
 }
 
 .checked {
@@ -153,10 +168,9 @@ footer > img {
 .shareRecipe {
   font-family: 'Arial Narrow';
   color: white;
-  background-color: red;
+  background-color: #990000;
   float: right;
-  padding :10px 10px 10px 10px;
-  /*padding-right:5px; */
+  padding :15px 25px 15px 25px;
 }
 
 .endOfPage {
@@ -167,6 +181,7 @@ footer > img {
   margin-left: 48%;
   margin-right: auto;
 }
+
 .endOfPage p {
   text-align: center;
   font-size: 12;
