@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, object, h1, p, blockquote, pre, a, em, img, strong, dl, dt, dd, ol, ul, li,  label, tr, th, td, article, footer, header, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+
+/* end Reset code */
+
+
+html {
+  background-color: white;
+}
+
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+header img {
+  float: left;
+}
+
+.headerTextSection h1 {
+  font-family:   cursive;
+  font-size:     34px;
+  line-height:   70%;
+  margin-bottom: 0em;
+  margin-top:    5px;
+}
+
+.headerTextSection p {
+  margin-top:     0em;
+  margin-bottom:  0em;
+  font-size:      12px;
+}
+
+.headerTextSection {
+  float:left;
+}
+
+.header-rss-mailSection {
+  float: right;
+  margin-left: 10px;
+}
+
+.headerSocialMediaSection {
+  float: right;
+}
+
+main {
+  clear: both;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: ridge;
+  border-color: gray;
+  border-bottom-width: 15px;
+  border-top-width: 15px;
+  padding-bottom: 20px;
+}
+
+main h1 {
+  font-size: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 0px;
+}
+
+.mainSubHeader {
+
+}
+.mainSubHeader p {
+  float: left;
+  color: gray;
+  font-size: 12;
+  margin-top: 0px;
+}
+
+.rightAlignedMainSubHeader {
+  float: right;
+}
+
+main > img {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: auto;
+}
+
+.recipeInstructions p {
+  text-indent: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24;
+}
+
+.ingredientsList {
+  background-image: url('challenge/list-bg.png');
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.ingredientsList ul {
+  list-style: none;
+}
+
+.ingredientsList ul section {
+  width: 50%;
+  display: inline-block;
+}
+
+.secondIngredientsSection {
+  float: right;
+}
+.ingredientsList li {
+  font-family: Verdana;
+  font-size: 20;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+footer > img {
+  float: left;
+}
+
+.shareRecipe {
+  font-family: 'Arial Narrow';
+  color: white;
+  background-color: red;
+  float: right;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.endOfPage {
+  clear: both;
+}
+
+.endOfPage img {
+  margin-left: 48%;
+  margin-right: auto;
+}
+.endOfPage p {
+  text-align: center;
+  font-size: 12;
+  color: gray;
+}
