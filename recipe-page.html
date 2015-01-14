@@ -2,23 +2,26 @@
 <html>
   <head>
     <link href='http://fonts.googleapis.com/css?family=Abel|Yellowtail|Droid+Serif' rel='stylesheet' type='text/css'>
-    <title>Delicious Recipes</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
     <link href="style-grid.css" type="text/css" rel="stylesheet" />
+    <link href="base.css" type="text/css" rel="stylesheet" />
+    <link href="modules.css" type="text/css" rel="stylesheet" />
+    <link href="layout.css" type="text/css" rel="stylesheet" />
+    <title>Delicious Recipes</title>
   </head>
-  <div class='bodyContainer'>
-    <body>
+  <div class='bodyContainer page-background'>
+    <body class="page-background">
       <header>
         <img class="grid1" src='challenge/logo.png' />
-        <section class='headerTextSection'>
+        <section class='left-aligned'>
           <h1>Delicious</h1>
-          <p>THE BEST FOOD BLOG ON THE WEB</p>
+          <p class="small-note">THE BEST FOOD BLOG ON THE WEB</p>
         </section>
-        <section class='header-rss-mailSection grid1'>
+        <section class='header-rss-mailSection right-aligned grid1'>
           <img src='challenge/rss-icon.png' />
           <img src='challenge/mail-icon.png' />
         </section>
-        <section class='headerSocialMediaSection grid3'>
+        <section class='right-aligned grid3'>
           <img src='challenge/fb-icon.png' />
           <img src='challenge/twit-icon.png' />
           <img src='challenge/gp-icon.png' />
@@ -28,12 +31,12 @@
         </section>
       </header>
       <main>
-        <h1> Chocolate Pizza </h1>
-        <section class='mainSubHeader'>
-          <p> POSTED ON 15 DEC 2013 / DESSERTS </p>
+        <h1 class='main-header'> Chocolate Pizza </h1>
+        <section>
+          <p class='small-note left-aligned'> POSTED ON 15 DEC 2013 / DESSERTS </p>
           <section class='rightAlignedMainSubHeader'>
             <img class='grid16' src='challenge/print-icon.png' />
-            <p> PRINT </p>
+            <p class='small-note left-aligned'> PRINT </p>
           </section>
         </section>
         <img src='challenge/choco-pizza.png' />
@@ -52,7 +55,7 @@
               <li><input type='checkbox'> 1/2 cup brown sugar</li>
               <li><input type='checkbox'> 2-4 tbsp water</li>
             </section>
-            <section class='secondIngredientsSection grid8'>
+            <section class='right-aligned grid8'>
               <li><input type='checkbox'> 1 1/2 cups heavy cream</li>
               <li class="checked"><input type='checkbox' checked> 1/3 cup granulated sugar</li>
               <li class="checked"><input type='checkbox' checked> 2 egg yolks</li>
@@ -64,10 +67,11 @@
         </section>
       </main>
       <footer>
-        <img class='grid2' src='challenge/van-pic.png' />
-        <section class='headerTextSection'>
+        <img class='grid2 left-aligned' src='challenge/van-pic.png' />
+        <section class='footerTextSection left-aligned'>
           <h1>Vanessa Stevenson</h1>
-          <p>Food enthusiast, photography fan.  Add a pinch of raw foodism and that's pretty much who   I am.</p>
+          <br />
+          <p>Food enthusiast, photography fan.  Add a pinch of raw foodism and that's pretty much who I am.</p>
         </section>
         <section class='shareRecipe grid3'>
           <p> SHARE RECIPE </p>
@@ -77,8 +81,8 @@
           <br />
           <br />
           <img class='grid1' src='challenge/small-logo.png' />
-          <p> Delicious 2013 - All Rights Reserved. </p>
-          <p> Proudly published with Ghost. </p>
+          <p class='small-note'> Delicious 2013 - All Rights Reserved. </p>
+          <p class='small-note'> Proudly published with Ghost. </p>
         </section>
       </footer>
     </div>

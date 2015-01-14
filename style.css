@@ -1,62 +1,25 @@
-/* Reset code, taken from:
-
-   http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-
-
-   fonts used: yellowtail, Abel, Droid serif
-*/
-
-
-
-html, body, div, span, object, h1, p, blockquote, pre, a, em, img, strong, dl, dt, dd, ol, ul, li,  label, tr, th, td, article, footer, header, section {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-
-/* end Reset code */
-
-
 
 html {
   background-color: #b8b8b8;
 }
 
 .bodyContainer {
-  background-color: white;
   margin: 20 100;
 }
 
 body {
   margin: 0 100;
-  background-color: white;
 }
 
 header {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 header img {
   float: left;
 }
 
-.headerTextSection h1 {
+header h1 {
   font-family: 'Yellowtail', cursive;
   font-size:     34px;
   line-height:   70%;
@@ -64,24 +27,8 @@ header img {
   margin-top:    5px;
 }
 
-.headerTextSection p {
-  font-family: 'Abel', sans-serif;
-  margin-top:     0em;
-  margin-bottom:  0em;
-  font-size:      12;
-}
-
-.headerTextSection {
-  float:left;
-}
-
 .header-rss-mailSection {
-  float: right;
   margin-left: 10px;
-}
-
-.headerSocialMediaSection {
-  float: right;
 }
 
 main {
@@ -95,17 +42,10 @@ main {
   padding-bottom: 20px;
 }
 
-main h1 {
-  font-size: 46px;
-  font-family: Impact, Charcoal, sans-serif;
-  margin-bottom: 0px;
-}
-
-.mainSubHeader p {
-  float: left;
+main > section > p {
   color: gray;
-  font-size: 12;
   margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 .rightAlignedMainSubHeader {
@@ -122,7 +62,7 @@ main > img {
 .recipeInstructions p {
   text-indent: 2em;
   font-family: 'Droid Serif', serif;
-  font-size: 24;
+  font-size: 20;
   color: #707070;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -146,10 +86,6 @@ main > img {
   margin-left: 10px;
 }
 
-.secondIngredientsSection {
-  float: right;
-}
-
 .ingredientsList li {
   font-family: Verdana Narrow;
   font-size: 20;
@@ -158,20 +94,16 @@ main > img {
   padding-bottom: 6px;
 }
 
-input[type='checkbox'] {
-
-}
-
-.checked {
-  text-decoration: line-through;
-}
-
 footer {
   margin-top: 15px;
 }
 
-footer > img {
-  float: left;
+.footerTextSection {
+  margin-left: 5px;
+}
+
+.footerTextSection h1 {
+  font-size: 22;
 }
 
 .shareRecipe {
@@ -193,6 +125,4 @@ footer > img {
 
 .endOfPage p {
   text-align: center;
-  font-size: 12;
-  color: gray;
 }
