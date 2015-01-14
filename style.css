@@ -35,10 +35,10 @@ ol, ul {
 
 
 html {
-  background-color: gray;
+  background-color: #b8b8b8;
 }
 
-.container {
+.bodyContainer {
   background-color: white;
   margin: 20 100;
 }
@@ -156,6 +156,10 @@ main > img {
   color: #996600;
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+input[type='checkbox'] {
+
 }
 
 .checked {
