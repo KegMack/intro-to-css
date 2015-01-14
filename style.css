@@ -12,11 +12,7 @@ body {
 }
 
 header {
-  margin-bottom: 10px;
-}
-
-header img {
-  float: left;
+  height: 75px;
 }
 
 header h1 {
@@ -46,10 +42,6 @@ main > section > p {
   color: gray;
   margin-top: 0px;
   margin-bottom: 15px;
-}
-
-.rightAlignedMainSubHeader {
-  float: right;
 }
 
 main > img {
