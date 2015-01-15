@@ -1,0 +1,14 @@
+.page-background {
+  background-color: white;
+}
+
+.bodyContainer {
+  margin: 20 100;
+}
+
+.main__header {
+  font-size: 46px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
