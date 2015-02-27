@@ -43,7 +43,7 @@ main > img {
   height: auto;
 }
 
-.recipeInstructions p {
+.recipe-Instructions p {
   text-indent: 2em;
   font-family: 'Droid Serif', serif;
   font-size: 20;
@@ -52,7 +52,7 @@ main > img {
   margin-top: 1em;
 }
 
-.ingredientsList {
+.ingredients-List {
   background-image: url('challenge/list-bg.png');
   width: 100%;
   height: auto;
@@ -60,17 +60,17 @@ main > img {
   padding-bottom: 25px;
 }
 
-.ingredientsList ul {
+.ingredients-List ul {
   list-style: none;
 }
 
-.ingredientsList ul section {
+.ingredients-List ul section {
   width: 45%;
   display: inline-block;
   margin-left: 10px;
 }
 
-.ingredientsList li {
+.ingredients-List li {
   font-family: Verdana Narrow;
   font-size: 20;
   color: #996600;
@@ -82,31 +82,31 @@ footer {
   margin-top: 15px;
 }
 
-.footerTextSection {
+.footer-Text-Section {
   margin-left: 5px;
 }
 
-.footerTextSection h1 {
+.footer-Text-Section h1 {
   font-size: 22;
 }
 
-.shareRecipe {
+.share-Recipe {
   font-family: 'Arial Narrow';
   color: white;
   background-color: #990000;
   float: right;
-  padding :15px 25px 15px 25px;
+  padding :15px 25px;
 }
 
-.endOfPage {
+.end-Of-Page {
   clear: both;
 }
 
-.endOfPage img {
+.end-Of-Page img {
   margin-left: 48%;
   margin-right: auto;
 }
 
-.endOfPage p {
+.end-Of-Page p {
   text-align: center;
 }
